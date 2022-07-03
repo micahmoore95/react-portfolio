@@ -1,7 +1,7 @@
 import './App.css';
 import React from "react";
 import About from "./components/About";
-import Projects from './components/Projects';
+import MyProjects from './components/Projects';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 
@@ -11,7 +11,7 @@ function App() {
     <main className="text-gray-400 bg-gray-900 body-font">
       <Navbar />
       <About />
-      <Projects />
+      <MyProjects />
       <Contact />
     </main>
   );
