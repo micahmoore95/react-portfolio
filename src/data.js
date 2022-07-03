@@ -1,4 +1,4 @@
-export const projects = [
+export const projectList = [
     {
       title: "Try My Trivia",
       subtitle: "Javascript, HTML, and CSS",

@@ -1,25 +1,22 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-
-function Navbar() {
-    const { currentPage, setCurrentPage } = props;
-
+function Navbar(props) {
+  
   return (
-    <header className="flex-row px-1">
-      <h2>
-          Micah Moore
-      </h2>
-      <nav>
-        <ul className="flex-row">
-          <li className={currentPage === "about" ? "mx-2 navActive" : "mx-2"}>
-            <span onClick={() => setCurrentPage("About")}>About Me</span>
-          </li>
-          <li className={currentPage === "myprojects" ? "mx-2 navActive" : "mx-2"}>
-            <span onClick={() => setCurrentPage("MyProjects")}>Projects</span>
-          </li>
+    <nav>
+      <ul>
+        <li>
+          <Link to="/about">About Me</Link>
+        </li>
+        <li>
+          <Link to="/myprojects">My Projects</Link>
+        </li>
+        <li>
+          <Link to="/contact">Contact Me</Link>
+        </li>
       </ul>
     </nav>
-    </header >
   );
 };
 
