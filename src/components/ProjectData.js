@@ -1,7 +1,7 @@
 import React from "react";
 import Project from "./Projects";
 
-const projectList = () => {
+const ProjectList = () => {
   const project1 = 
     {
       title: "Spoiled Milk",
@@ -32,3 +32,5 @@ const projectList = () => {
         </div>
     );
 };
+
+export default ProjectList;
