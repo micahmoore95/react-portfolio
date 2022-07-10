@@ -17,4 +17,4 @@ const Project = ({ project }) => {
     );
 };
 
-export default Project();
+export default Project;

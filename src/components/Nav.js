@@ -13,7 +13,7 @@ const Nav = (props) => {
     contactSelected,
     toggleMenu
 } = props
-
+console.log(props);
 const displayHome = () => {
     setHomeSelected(true);
     setAboutSelected(false);
@@ -88,4 +88,4 @@ const displayContact = () => {
   );
 };
 
-export default Nav();
+export default Nav;
