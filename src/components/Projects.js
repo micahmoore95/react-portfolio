@@ -15,6 +15,6 @@ const Project = ({ project }) => {
         <a href={githubLink}target='_blank'> Github</a>
 </div>
     );
-};
+}; 
 
 export default Project;

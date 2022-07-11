@@ -20,7 +20,7 @@ const Header = (props) => {
     };
 
     return (
-        <header>
+        <header className='App-header'>
             <div className={`menu-btn ${showMenu && 'close'}`} onClick={() => toggleMenu()}>
                 <div className='btn-line'></div>
                 <div className='btn-line'></div>
