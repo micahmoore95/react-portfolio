@@ -4,12 +4,14 @@ const Project = ({ project }) => {
   const {
     title,
     githubLink,
-    deployedLink
+    deployedLink,
+    projectImg,
   } = project;
 
   return (
     <div>
     <a href={deployedLink} target='_blank'>
+    <img src={require(`../assets/images/${projectImg}.jpg`)} alt=''/>
     </a>
     <a href={deployedLink} target='_blank' className="deployed-link">{title}</a>
         <a href={githubLink}target='_blank' className="github-link"> Github Repository</a>
