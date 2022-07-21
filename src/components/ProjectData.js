@@ -18,9 +18,28 @@ const ProjectList = () => {
     }
   const project3 =
     {
-      title: "Try My Trivia",
-      githubLink: "https://micahmoore95.github.io/TryMyTrivia/",
+      title: "Book Search",
+      githubLink: "https://github.com/micahmoore95/book-search",
+      deployedLink: "https://safe-reaches-44078.herokuapp.com/",
+    };
+    const project4 =
+    {
+      title: "Budget Tracker",
+      githubLink: "https://github.com/micahmoore95/budget-tracker",
+      deployedLink: "https://sleepy-mesa-97919.herokuapp.com/",
+      projectImg: "budgettracker",
+    };
+    const project5 =
+    {
+      title: "Robot Gladiators",
+      githubLink: "https://github.com/micahmoore95/robot-gladiators",
       deployedLink: "",
+    };
+    const project6 =
+    {
+      title: "Hike Buddy",
+      githubLink: "https://github.com/micahmoore95/hike-buddy",
+      deployedLink: "https://still-shore-87425.herokuapp.com/",
     };
   
   return (
@@ -30,6 +49,9 @@ const ProjectList = () => {
                 <Project project={project1} />
                 <Project project={project2} />
                 <Project project={project3} />
+                <Project project={project4} />
+                <Project project={project5} />
+                <Project project={project6} />
             </div>
         </div>
     );
