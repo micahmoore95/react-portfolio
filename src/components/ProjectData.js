@@ -11,8 +11,8 @@ const ProjectList = () => {
   const project2 =
     {
       title: "Try My Trivia",
-      githubLink: "https://micahmoore95.github.io/TryMyTrivia/",
-      deployedLink: "",
+      githubLink: "https://github.com/micahmoore95/TryMyTrivia",
+      deployedLink: "https://micahmoore95.github.io/TryMyTrivia/",
     }
   const project3 =
     {
