@@ -48,6 +48,7 @@ const displayContact = () => {
   return (
     <nav className={`menu ${showMenu && 'show'}`}>
             <div className={`menu-branding ${showMenu && 'show'}`}>
+                <div className='portrait'></div>
             </div>
             <ul className={`nav-list ${showMenu && 'show'}`}>
                 <li className={`nav-item ${showMenu && 'show'}`}>

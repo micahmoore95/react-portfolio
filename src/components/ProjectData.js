@@ -7,14 +7,12 @@ const ProjectList = () => {
       title: "Spoiled Milk",
       githubLink: "https://micahmoore95.github.io/react-portfolio/",
       deployedLink: "",
-      projectImg: "spoiledmilk",
     };
   const project2 =
     {
       title: "Try My Trivia",
-      githubLink: "https://github.com/micahmoore95/TryMyTrivia",
-      deployedLink: "https://micahmoore95.github.io/TryMyTrivia/",
-      projectImg: "trymytrivia",
+      githubLink: "https://micahmoore95.github.io/TryMyTrivia/",
+      deployedLink: "",
     }
   const project3 =
     {
