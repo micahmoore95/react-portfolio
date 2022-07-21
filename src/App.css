@@ -28,6 +28,15 @@
   color: #61dafb;
 }
 
+.github-link {
+  padding: 5px;
+}
+
+.project-img {
+  width: 270px;
+  height: 270px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -5,14 +5,16 @@ const ProjectList = () => {
   const project1 = 
     {
       title: "Spoiled Milk",
-      githubLink: "https://micahmoore95.github.io/react-portfolio/",
-      deployedLink: "",
+      githubLink: "https://github.com/Nesnah1307/spoiled-milk",
+      deployedLink: "https://dry-inlet-29870.herokuapp.com/",
+      projectImg: "spoiledmilk",
     };
   const project2 =
     {
       title: "Try My Trivia",
-      githubLink: "https://micahmoore95.github.io/TryMyTrivia/",
-      deployedLink: "",
+      githubLink: "https://github.com/micahmoore95/TryMyTrivia",
+      deployedLink: "https://micahmoore95.github.io/TryMyTrivia/",
+      projectImg: "trymytrivia",
     }
   const project3 =
     {
