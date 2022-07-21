@@ -13,8 +13,8 @@ const Project = ({ project }) => {
     <a href={deployedLink} target='_blank'>
     <img src={`src/assets/images/${projectImg}.jpg`} alt='' className='project-img' />
     </a>
-    <a href={deployedLink} target='_blank'>{title}</a>
-        <a href={githubLink}target='_blank' className="github-link"> Github Repository</a>
+    <a href={deployedLink} target='_blank' className="deployed-link">{title}</a>
+    <a href={githubLink}target='_blank' className="github-link"> Github Repository</a>
 </div>
     );
 }; 

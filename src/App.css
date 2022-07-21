@@ -17,7 +17,7 @@
   background-color: #282c34;
   min-height: 10vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -30,11 +30,28 @@
 
 .github-link {
   padding: 5px;
+  float: center;
+  font-size: x-large;
+}
+
+.deployed-link {
+  padding: 5px;
+  float: center;
+  font-size: x-large;
 }
 
 .project-img {
   width: 270px;
   height: 270px;
+}
+
+#about {
+  color: black;
+}
+
+.intro {
+  color: black;
+  font-size: large;
 }
 
 @keyframes App-logo-spin {
