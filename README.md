@@ -1,8 +1,10 @@
 # Micah's React Portfolio
 
+![screenshot](src/assets/images/screenshot.jpg)
+
 ## Technologies
 
-This is a React based portfolio. I user React.js, Javascript, HTML, and CSS
+This is a React based portfolio. I uses React.js, Javascript, HTML, and CSS
 
 ## Deployment
 
